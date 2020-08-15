@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body {
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
+    margin: 40px;
     background: rgb(245, 250, 255);
 }
 .nav-bar {
@@ -58,5 +59,45 @@ body {
     max-width: 780px;
     margin-right: 40px;
     font-size: 15px;
+}
+
+.grow-together{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 4px 14px 14px  rgba(15, 15, 15, 0.034);
+    border-radius: 10px;
+    padding: 50px 30px 50px 100px;
+    margin-top: 10%;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+}
+
+.content p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(104, 103, 103);
+}
+.imagen-grow img {
+    width: 400px
+}
+
+.flowing-conversations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 4px 14px 14px  rgba(15, 15, 15, 0.034);
+    border-radius: 10px;
+    padding: 50px 30px 50px 100px;
+    margin-top: 20px;
 }
 
