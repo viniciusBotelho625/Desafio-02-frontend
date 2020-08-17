@@ -7,9 +7,20 @@ body {
     background: rgb(245, 250, 255);
 }
 
+.header {
+    background: #C5EEF9;
+}
+
+header,
+.community-love {
+    padding: 40px 40px 0 40px;
+    margin: 0px 40px 0 40px; 
+}
+
 .container {
     padding: 40px;
     margin: 40px;
+    position: relative;
 }
 
 .nav-bar {
@@ -33,14 +44,11 @@ body {
     box-shadow: 3px 4px rgba(15, 15, 15, 0.034);
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    transition: 0.2;
 }
 
-.community-love {
-    display: flex;
-}
-
-.imagen {
-    width: 100%;
+.button-nav-bar:hover{
+    background: #9facaf;
 }
 
 .button-start {
@@ -51,7 +59,23 @@ body {
     height: 40px;
     padding: 12px 40px;
     margin-top: 20px;
+    transition: 0.2;
+    cursor: pointer;
 }
+
+.button-start:hover {
+    background: rgb(247, 117, 199);
+}
+
+.community-love {
+    display: flex;
+}
+
+.imagen {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
 
 .text h2 {
     font-family: 'Poppins', sans-serif;
@@ -107,16 +131,21 @@ body {
     margin-top: 20px;
 }
 
+.flowing-conversations + .flowing-conversations {
+    margin-bottom: 100px;
+}
+
+
 .contact {
     width: 500px;
     margin: 0 auto;
     background-color: #FFF;
     padding: 40px 80px 30px 80px;
     border-radius: 10px;
-    margin-top: -50px;
+    margin-bottom: -150px;
     text-align: center;
     z-index: 1;
-    position: absolute;
+  
 }
 
 .contact .title {
@@ -135,6 +164,12 @@ body {
     margin-top: 10px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact button:hover {
+    background: rgb(247, 117, 199);
 }
 
 footer{
